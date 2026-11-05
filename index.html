@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Seleção Brasileira</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <header class="topo">
+        <div class="container menu-area">
+            <a href="index.html" class="logo" data-testid="logo-link">Seleçao <span>Brasileira</span></a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" class="ativo" data-testid="nav-link-inicio">Início</a></li>
+                    <li><a href="historia.html" data-testid="nav-link-historia">História</a></li>
+                    <li><a href="copas.html" data-testid="nav-link-copas">As 5 Copas</a></li>
+                    <li><a href="idolos.html" data-testid="nav-link-idolos">Ídolos</a></li>
+                    <li><a href="titulos.html" data-testid="nav-link-titulos">Títulos</a></li>
+                    <li><a href="uniformes.html" data-testid="nav-link-uniformes">Uniformes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="hero">
+        <div class="container">
+            <div class="estrelas" data-testid="hero-stars">★ ★ ★ ★ ★</div>
+            <h1>Seleção <span>Brasileira</span><br></h1>
+            <p>
+                Pentacampeã mundial e única seleção presente em todas as Copas,
+                a Amarelinha é o maior símbolo do futebol no planeta.
+                Conheça a história, os ídolos e as glórias do time mais vitorioso do mundo.
+            </p>
+            <a href="historia.html" class="btn" data-testid="hero-btn-historia">Conhecer a história</a>
+            <a href="copas.html" class="btn btn-contorno" data-testid="hero-btn-copas">Ver as 5 Copas</a>
+        </div>
+    </section>
+
+    
+    <section class="secao">
+        <div class="container">
+            <h2 class="titulo-secao">Explore o site</h2>
+            <p class="subtitulo-secao">Cada página conta um pedaço da trajetória da maior seleção do mundo.</p>
+
+            <div class="grade-cards">
+                <div class="card">
+                    <h3>História</h3>
+                    <p>De 1914 até os dias de hoje: o Maracanazo, a era Pelé e a busca pelo hexacampeonato.</p>
+                    <a href="historia.html" class="link-card" data-testid="card-link-historia">Ler a história →</a>
+                </div>
+
+                <div class="card">
+                    <h3>As 5 Copas</h3>
+                    <p>1958, 1962, 1970, 1994 e 2002. Reviva cada conquista do pentacampeonato mundial.</p>
+                    <a href="copas.html" class="link-card" data-testid="card-link-copas">Ver as conquistas →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Ídolos Eternos</h3>
+                    <p>De Kaká a Pelé: o ranking dos 10 maiores craques que já vestiram a Amarelinha.</p>
+                    <a href="idolos.html" class="link-card" data-testid="card-link-idolos">Conhecer os ídolos →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Títulos & Estatísticas</h3>
+                    <p>Todos os troféus, os maiores artilheiros e os números que impressionam o mundo.</p>
+                    <a href="titulos.html" class="link-card" data-testid="card-link-titulos">Ver os números →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Uniformes</h3>
+                    <p>Como a camisa branca virou a Amarelinha mais famosa do planeta após 1950.</p>
+                    <a href="uniformes.html" class="link-card" data-testid="card-link-uniformes">Ver os uniformes →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Curiosidades</h3>
+                    <p>Fatos incríveis sobre a Seleção que nem todo torcedor conhece. Teste no botão abaixo!</p>
+                    <a href="#curiosidades" class="link-card" data-testid="card-link-curiosidades">Ver curiosidades →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="secao secao-escura">
+        <div class="container">
+            <h2 class="titulo-secao">A Seleção em números</h2>
+            <p class="subtitulo-secao">Alguns números que mostram o tamanho da Amarelinha.</p>
+
+            <div class="grade-cards">
+                <div class="card" data-testid="stat-copas">
+                    <div class="numero-destaque">5</div>
+                    <div class="legenda-numero">Copas do Mundo conquistadas</div>
+                </div>
+                <div class="card" data-testid="stat-jogos-copas">
+                    <div class="numero-destaque">22</div>
+                    <div class="legenda-numero">Copas disputadas (todas as edições)</div>
+                </div>
+                <div class="card" data-testid="stat-gols-pele">
+                    <div class="numero-destaque">79</div>
+                    <div class="legenda-numero">Gols de Neymar, maior artilheiro da história</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="secao" id="curiosidades">
+        <div class="container">
+            <div class="caixa-curiosidade">
+                <h2>Você sabia?</h2>
+                <p id="texto-curiosidade" data-testid="curiosidade-texto">
+                    Clique no botão abaixo para descobrir uma curiosidade sobre a Seleção Brasileira!
+                </p>
+                <button class="btn" id="btn-curiosidade" data-testid="btn-curiosidade">Sortear curiosidade</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="rodape">
+        <div class="container">
+            <a href="index.html" class="logo">Seleção <span>Brasileira</span></a>
+            <div class="links-rodape">
+                <a href="historia.html">História</a>
+                <a href="copas.html">As 5 Copas</a>
+                <a href="idolos.html">Ídolos</a>
+                <a href="titulos.html">Títulos</a>
+                <a href="uniformes.html">Uniformes</a>
+            </div>
+            <p>Site feito para trabalho de faculdade - HTML, CSS e um pouco de JavaScript.</p>
+            <p>Imagens: Unsplash | Dados históricos: CBF e FIFA</p>
+        </div>
+    </footer>
+
+    
+    <button id="btn-topo" data-testid="btn-topo" title="Voltar ao topo">↑</button>
+
+    <script src="main.js"></script>
+</body>
+</html>

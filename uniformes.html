@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniformes - Seleção Brasileira</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== CABEÇALHO ===== -->
+    <header class="topo">
+        <div class="container menu-area">
+            <a href="index.html" class="logo" data-testid="logo-link">BRASIL <span>Seleção</span></a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" data-testid="nav-link-inicio">Início</a></li>
+                    <li><a href="historia.html" data-testid="nav-link-historia">História</a></li>
+                    <li><a href="copas.html" data-testid="nav-link-copas">As 5 Copas</a></li>
+                    <li><a href="idolos.html" data-testid="nav-link-idolos">Ídolos</a></li>
+                    <li><a href="titulos.html" data-testid="nav-link-titulos">Títulos</a></li>
+                    <li><a href="uniformes.html" class="ativo" data-testid="nav-link-uniformes">Uniformes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== CAPA ===== -->
+    <section class="hero hero-menor hero-uniformes">
+        <div class="container">
+            <h1>A camisa mais <span>famosa</span> do mundo</h1>
+            <p>A história de como um concurso de jornal criou o uniforme mais desejado do futebol.</p>
+        </div>
+    </section>
+
+    <!-- ===== A CAMISA BRANCA ===== -->
+    <section class="secao">
+        <div class="container">
+            <h2 class="titulo-secao">Da camisa branca ao Canarinho</h2>
+            <p class="subtitulo-secao">
+                Nem sempre o Brasil jogou de amarelo. A história da camisa é, na verdade, uma lição de superação.
+            </p>
+
+            <div class="grade-cards grade-2">
+                <div class="card" data-testid="uniforme-branca">
+                    <h3>A era da camisa branca (1914 - 1950)</h3>
+                    <p>
+                        Nas primeiras décadas, a Seleção jogava com camisa branca, calção branco
+                        (ou azul) e meias brancas. O uniforme não tinha nenhuma das cores da bandeira,
+                        o que sempre gerou críticas.
+                    </p>
+                    <p>
+                        Depois da derrota traumática para o Uruguai na Copa de 1950, o Maracanazo,
+                        a camisa branca passou a ser vista como símbolo de fracasso e foi aposentada.
+                    </p>
+                </div>
+
+                <div class="card" data-testid="uniforme-concurso">
+                    <h3>O concurso que mudou tudo (1953)</h3>
+                    <p>
+                        Em 1953, o jornal Correio da Manhã lançou um concurso nacional para criar um novo
+                        uniforme com as cores da bandeira do Brasil: verde, amarelo, azul e branco.
+                    </p>
+                    <p>
+                        O vencedor foi um gaúcho de apenas 19 anos, <strong>Aldyr Garcia Schlee</strong>,
+                        que morava na fronteira com o Uruguai. O desenho: camisa amarela com gola e
+                        detalhes verdes, calção azul e meias brancas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== OS DOIS UNIFORMES ===== -->
+    <section class="secao secao-escura">
+        <div class="container">
+            <h2 class="titulo-secao">Os uniformes de hoje</h2>
+            <p class="subtitulo-secao">A Amarelinha e o uniforme azul reserva, usado nas decisões mais importantes.</p>
+
+            <div class="grade-cards grade-2">
+                <div class="card-uniforme" data-testid="uniforme-amarelo">
+                    <div class="faixa-cores">
+                        <div class="cor-amarela"></div>
+                        <div class="cor-verde"></div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1552066379-e7bfd22155c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA6MjJ8MHwxfHNlYXJjaHwxfHx5ZWxsb3clMjBzb2NjZXIlMjBqZXJzZXklMjBraXR8ZW58MHx8fHwxNzkzNzYxODQ3fDA&ixlib=rb-4.1.0&q=85" alt="Camisa amarela da Seleção" data-testid="uniforme-img-amarela">
+                    <div class="info">
+                        <h3>Uniforme 1 - A Amarelinha</h3>
+                        <p>
+                            Camisa amarela com detalhes verdes, calção azul e meias brancas.
+                            Estreou em março de 1954, em uma vitória por 1 a 0 sobre o Chile no Maracanã.
+                            Acima do escudo da CBF, as 5 estrelas representam as cinco Copas do Mundo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-uniforme" data-testid="uniforme-azul">
+                    <div class="faixa-cores">
+                        <div class="cor-azul"></div>
+                        <div class="cor-branca"></div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1780336673883-05f8bce49ae3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxibHVlJTIwc29jY2VyJTIwamVyc2V5JTIwa2l0fGVufDB8fHx8MTc5Mzc2MTg0N3ww&ixlib=rb-4.1.0&q=85" alt="Camisa azul da Seleção" data-testid="uniforme-img-azul">
+                    <div class="info">
+                        <h3>Uniforme 2 - A camisa azul</h3>
+                        <p>
+                            Camisa azul com detalhes claros, calção branco e meias azuis.
+                            Nasceu de um improviso na final da Copa de 1958: como a Suécia também
+                            jogava de amarelo, o Brasil comprou camisetas azuis na véspera e costurou
+                            o escudo da CBF nelas. Venceu por 5 a 2 — e a azul virou símbolo de sorte.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CURIOSIDADES DOS UNIFORMES ===== -->
+    <section class="secao">
+        <div class="container">
+            <h2 class="titulo-secao">Curiosidades do manto</h2>
+            <p class="subtitulo-secao">Detalhes que tornam a camisa da Seleção única.</p>
+
+            <div class="grade-cards">
+                <div class="card" data-testid="curiosidade-manto-1">
+                    <h3>5 estrelas</h3>
+                    <p>Cada estrela acima do escudo da CBF representa uma Copa do Mundo conquistada: 1958, 1962, 1970, 1994 e 2002.</p>
+                </div>
+                <div class="card" data-testid="curiosidade-manto-2">
+                    <h3>O nome Canarinho</h3>
+                    <p>O apelido veio do desenhista Paulo Machado de Carvalho, que comparou a cor da camisa à plumagem do canário-da-terra.</p>
+                </div>
+                <div class="card" data-testid="curiosidade-manto-3">
+                    <h3>Camisa 10 sagrada</h3>
+                    <p>Depois de Pelé, a camisa 10 virou patrimônio da Seleção, usada por Zico, Rivaldo, Ronaldinho, Kaká e Neymar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer class="rodape">
+        <div class="container">
+            <a href="index.html" class="logo">BRASIL <span>Seleção</span></a>
+            <div class="links-rodape">
+                <a href="historia.html">História</a>
+                <a href="copas.html">As 5 Copas</a>
+                <a href="idolos.html">Ídolos</a>
+                <a href="titulos.html">Títulos</a>
+                <a href="uniformes.html">Uniformes</a>
+            </div>
+            <p>Site feito para trabalho de faculdade - HTML, CSS e um pouco de JavaScript.</p>
+            <p>Imagens: Unsplash | Dados históricos: CBF e FIFA</p>
+        </div>
+    </footer>
+
+    <button id="btn-topo" data-testid="btn-topo" title="Voltar ao topo">↑</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
